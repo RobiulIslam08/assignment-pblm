@@ -1,0 +1,698 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather', serif;
+    ;
+}
+
+/* common style start here */
+.container {
+    width: 85%;
+    margin: 0 auto;
+    max-width: 1320px;
+    margin-top: 50px;
+    position: relative;
+
+}
+
+.button {
+    background-color: #11c66c;
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    border: none;
+    margin: 40px 477px 120px 134px;
+    padding: 10px 20px;
+    border-radius: 9px;
+    cursor: pointer;
+
+}
+
+.button:hover {
+    background-color: #51ae7f;
+}
+
+/* common style ends here */
+
+/* banner-1 design start here */
+.banner-1 {
+    background-image: url("resources/banner-image.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 510px;
+
+
+
+}
+
+.banner-1 * {
+    text-align: center;
+}
+
+.banner-1 p {
+    padding-top: 177px;
+    color: #ffffff;
+
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.banner-1 h1 {
+    padding: 5px 344px 177px 344px;
+    color: #d731d4;
+
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 95px;
+    /* 131.944% */
+}
+
+/* banner-1 design ends here */
+
+
+/* discount section start here */
+.discount-section {
+    width: 749px;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 102px;
+    text-align: center;
+    margin-bottom: 102px;
+}
+
+.discount-section h1 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 75px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 40px;
+}
+
+.discount-section p {
+    color: #F00;
+
+
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+
+}
+
+.discount-section h2 {
+    color: #070211;
+
+
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 40px;
+}
+
+.discount-section img {
+    width: 680px;
+    height: 425px;
+    flex-shrink: 0;
+}
+
+/* discount section  here */
+
+
+/* banner-2 section start here */
+.banner-2 {
+    background-image: url("resources/vector.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 510px;
+    display: flex;
+
+
+}
+
+.banner-2 .banner-2-text h1 {
+    width: 545px;
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 765;
+    line-height: 74px;
+    margin: 106px 0px 0px 107px;
+}
+
+
+.banner-2 .banner-2-text p {
+    color: rgba(254, 253, 255, 0.8);
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    width: 590px;
+    margin: 20px 0px 0px 106px;
+}
+
+.banner-2-img img {
+    height: 344px;
+    width: 271px;
+    margin: 57px 117px 56px 0px;
+
+}
+
+/* banner-2 section ends here */
+
+/* place-date-time-section    start here */
+.place-date-time-section {
+    background-color: #FFEEEE;
+    margin-bottom: 102px;
+    border-radius: 18px;
+}
+
+.place-date-time-section .text {
+    color: #070211;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 45px;
+    text-transform: capitalize;
+    text-align: center;
+    padding-top: 85px;
+    padding-bottom: 93px;
+}
+
+.button-red {
+    color: #050000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    background: #F00;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 35px;
+}
+
+.button-red:hover {
+    background-color: #c72121;
+}
+
+.text-color-red {
+    color: #F00;
+}
+
+/* place-date-time-section    ends here */
+
+
+/* section-5 start here */
+.section-5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    margin-bottom: 102px;
+}
+
+.section-5-text-left {
+    text-align: left;
+}
+
+.section-5-text-left h3 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+
+.section-5-text-left h1 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 41px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-bottom: 19px;
+}
+
+.section-5-text-left p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.section-5-img-circle {
+    height: 309px;
+    width: 309px;
+    border: 10px solid #F00;
+    padding: 30px 30px;
+    border-radius: 50%;
+}
+
+.section-5-img-circle img {
+    height: 309px;
+    width: 309px;
+}
+
+.section-5-text-right h1 {
+    color: #F00;
+
+    font-family: Inter;
+    font-size: 41px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.section-5-text-right p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 37px;
+    /* 160% */
+}
+
+.section-5-text-right img {
+    width: 119px;
+    height: 119px;
+}
+
+/* section-5 ends here */
+
+
+
+
+
+/* holidays-sale-section- start here */
+
+.holidays-sale-section-heading {
+    width: 907px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    
+}
+
+.holidays-sale-section-heading h4 {
+    color: #070211;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.holidays-sale-section-heading h1 {
+    color: #F00;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 61px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+.holidays-sale-section-heading p {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+}
+.bacground-red{
+    background-color: #FF0000;
+    height: 194px;
+    border-radius: 10px 0px 10px 10px;
+    margin-bottom: 102px;
+    
+}
+.holiday-img {
+    display: flex;
+}
+.holiday-img .girs {
+    margin-left: 718px;
+    position: relative;
+}
+.holiday-img .circle {
+    position: absolute;
+    margin-left: 550px;
+    margin-top: 50px;
+}
+/* .flex {
+    display: flex;
+    justify-content: space-between;
+}
+.left-img img {
+    width: 400px;
+    height: 400px;
+    
+} */
+.left-img {
+    position: absolute;
+}    
+.holiday-img {
+    position: relative;
+}
+.left-img img{
+    height: 600px;
+    width: 500px;
+
+}
+/* holidays-sale-section- ends here */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* portfolio section start here */
+.portfolio-heading h3 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.portfolio-heading h1 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-top: 14px;
+    margin-bottom: 19px;
+}
+
+.portfolio-heading p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    width: 760px;
+    margin-bottom: 41px;
+    /* 160% */
+}
+
+.portfolio .first-row-img {
+    display: flex;
+    gap: 18px;
+    margin-bottom: 18px;
+    cursor: pointer;
+}
+
+.portfolio .first-row-img img {
+    width: 360px;
+    height: 382px;
+}
+
+.portfolio .second-row-img img {
+    width: 360px;
+    height: 382px;
+}
+
+.portfolio .first-row-img img:hover {
+    opacity: 0.9;
+    box-shadow: 6px 6px 15px rgb(133, 204, 231);
+}
+
+.portfolio .second-row-img img:hover {
+    opacity: 0.9;
+    box-shadow: 6px 6px 15px rgb(133, 204, 231);
+}
+
+.portfolio .second-row-img {
+    display: flex;
+    gap: 18px;
+    margin-bottom: 102px;
+    cursor: pointer;
+}
+
+/* portfolio section ends here */
+
+/* newsletter section start here */
+.newslatter {
+    background: rgba(255, 0, 0, 0.05);
+    border-radius: 16px;
+    margin-bottom: 102px;
+    padding-bottom: 20px;
+}
+
+.newslatter-body {
+    width: 762px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.newslatter-body img {
+    margin-top: 50px;
+    height: 128px;
+    width: 128px;
+    margin-bottom: 34px;
+}
+
+.newslatter-body h1 {
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 41px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-bottom: 19px;
+}
+
+.newslatter-body p {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    margin-bottom: 41px;
+}
+
+.newslatter-body .form {
+    max-width: 550px;
+    max-height: 61px;
+    margin: 0 auto;
+    
+   
+}
+
+.newslatter-body .form input[type="email"] {
+    padding: 19px 25px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    background: #FFF;
+    font-size: 18px;
+    border-radius: 25px 0 0 25px;
+}
+
+.newslatter-body .form .subscribe-btn:hover {
+    border: 1px solid gray;
+    border-radius: 0 25px 25px 0;
+
+}
+
+.newslatter-body .form input[type="email"]:hover {
+    border: 1px solid gray;
+    border-radius: 25px 0 0 25px;
+    outline: black;
+}
+
+.newslatter-body .form .subscribe-btn {
+    color: white;
+    border-radius: 0 25px 25px 0;
+    background: #F00;
+    position: relative;
+    left: -5px;
+    padding: 19px 25px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+
+}
+
+/* newsletter section ends here */
+
+footer {
+    max-width: 1500px;
+    max-height: 95%;
+    background-color: #070211;
+    margin: 0 auto;
+    
+    color: white;
+    font-family: Inter;
+}
+
+footer .footer-first-step {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+footer .first-left {
+    width: 318px;
+    margin-top: 102px;
+    margin-left: 119px;
+    font: 21px;
+    line-height: 34px;
+}
+
+footer .first-right .phone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 102px;
+    margin-right: 247px;
+    font-family: Inter;
+}
+
+footer .first-right .email {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 247px;
+    margin-top: 8px;
+
+
+}
+
+footer .first-right .phone i {
+    height: 21px;
+    width: 21px;
+    margin-right: 5px;
+}
+
+footer .first-right .email i {
+    height: 21px;
+    width: 21px;
+    margin-right: 5px;
+    margin-top: 5px;
+    
+    
+}
+
+footer hr {
+    background: #FFF;
+    width: 1120px;
+
+    margin-top: 50px;
+    margin: 0 auto;
+}
+
+footer .footer-icon {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+footer .footer-icon i {
+    height: 54px;
+    width: 54px;
+    font-size: 40px;
+    color: #c750c5;
+}
+footer .footer-icon i:hover{
+    color: #d67cd5;
+}
+
+footer .footer-last-step {
+    display: flex;
+    justify-content: space-between;
+    font-family: Inter;
+}
+
+footer .footer-last-step .last-left {
+    margin-top: 42px;
+    margin-left: 119px;
+    margin-bottom: 102px;
+    font-family: Inter;
+}
+
+footer .footer-btn {
+    margin-top: 42px;
+    margin-right: 119px;
+    margin-bottom: 102px;
+}
+
+footer .last-left p {
+    font-family: Inter;
+}
+
+footer .first-left p {
+    font-family: Inter;
+}
+
+footer .phone p {
+    font-family: Inter;
+}
+
+footer .website p {
+    font-family: Inter;
+}
+
+.footer-btn {
+    outline: none;
+    border: none;
+    font-family: Inter;
+    transition: all 0.4s;
+}
+
+.footer-btn:hover {
+    cursor: pointer;
+    font-size: 18px;
+
+}
